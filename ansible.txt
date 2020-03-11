@@ -1,0 +1,16 @@
+#Ansible links
+
+    https://linuxhint.com/ansible-tutorial-beginners/
+    https://www.lisenet.com/2019/ansible-sample-exam-for-ex407/#comment-20452
+    https://www.certdepot.net/rhel8-rhce-ex294/
+    https://www.linuxtechi.com/install-ansible-centos-8-rhel-8/
+    https://networknuts.net/rhcsa-8-sample-exam/
+
+#Examen commando's
+
+ansible-doc --list | grep ANSIBLE_MODULE : to look up a module that can achieve your goal
+ansible-doc ANSIBLE_MODULE : to learn about the module parameters and example usage.
+ansible-playbook playbookname.yml --check-syntax
+ansible --version : to find out which Ansible config file is currently in use
+ansible-config view : display the content from Ansible config file
+ansible-playbook --limit : to try out your playbook against a single host first before applying it to all your hosts
